@@ -2,33 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PDF as Scrollable Images</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: #fff;
-      height: 100%;
-      overflow-y: auto;
-    }
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-  </style>
 </head>
 <body>
 
-  <script>
-    const totalPages = 12; // 👈 Change this if you have more pages
-    for (let i = 1; i <= totalPages; i++) {
-      const img = document.createElement("img");
-      img.src = `menu${i}.jpg`; // Or .png if that's what you exported
-      img.alt = `Menu Page ${i}`;
-      document.body.appendChild(img);
-    }
-  </script>
+  <img src="menu1.jpg" alt="Menu Page 1">
+  <img src="menu2.jpg" alt="Menu Page 2">
+  <img src="menu3.jpg" alt="Menu Page 3">
+  <img src="menu4.jpg" alt="Menu Page 4">
+  <img src="menu5.jpg" alt="Menu Page 5">
+  <img src="menu6.jpg" alt="Menu Page 6">
+  <img src="menu7.jpg" alt="Menu Page 7">
+  <img src="menu8.jpg" alt="Menu Page 8">
+  <img src="menu9.jpg" alt="Menu Page 9">
+  <img src="menu10.jpg" alt="Menu Page 10">
+  <img src="menu11.jpg" alt="Menu Page 11">
+  <img src="menu12.jpg" alt="Menu Page 12">
 
 </body>
 </html>
