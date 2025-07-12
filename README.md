@@ -2,7 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
+  <title>PDF as Scrollable Images</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      height: 100%;
+      overflow-y: auto;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
 
