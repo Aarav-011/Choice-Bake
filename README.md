@@ -14,7 +14,7 @@
       background: url('menu.jpg') no-repeat center top;
       background-size: cover;
       background-attachment: scroll; /* Make background scrollable */
-      min-height: 200vh; /* Add vertical height to enable scrolling */
+      min-height: 250vh; /* Add vertical height to enable scrolling */
     }
   </style>
 </head>
