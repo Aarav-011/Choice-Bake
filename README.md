@@ -2,22 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Scrollable Full Page Image</title>
+  <title>Full Scrollable Image</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
+      background: #fff;
       height: 100%;
+      overflow-y: auto;
     }
-
-    body {
-      background: url('menu.jpg') no-repeat center top;
-      background-size: cover;
-      background-attachment: scroll; /* Make background scrollable */
-      min-height: 250vh; /* Add vertical height to enable scrolling */
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
+
+  <img src="menu.jpg" alt="Menu Image">
+
 </body>
 </html>
